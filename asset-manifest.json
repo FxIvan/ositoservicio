@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/ositoservicio/static/js/main.4dd1f1a9.js",
+    "main.js": "/ositoservicio/static/js/main.3892cdaa.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
     "index.html": "/ositoservicio/index.html",
-    "main.4dd1f1a9.js.map": "/ositoservicio/static/js/main.4dd1f1a9.js.map",
+    "main.3892cdaa.js.map": "/ositoservicio/static/js/main.3892cdaa.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4dd1f1a9.js"
+    "static/js/main.3892cdaa.js"
   ]
 }
