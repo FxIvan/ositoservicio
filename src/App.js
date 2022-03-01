@@ -10,7 +10,7 @@ function App() {
     return(
       <BrowserRouter>
         <Routes>
-          <Route path='/ositoservicio' element={<Principal/>}/> 
+          <Route path='/' element={<Principal />}/> 
         </Routes>
       </BrowserRouter>
     )
