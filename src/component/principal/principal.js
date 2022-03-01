@@ -5,9 +5,8 @@ export const Principal = () =>{
     return(
         <div>
             <div>
-                <Navbar />
+            <h3>Borrador</h3>
             </div>
-            <h1>PROBANDO DENUEVO!!</h1>
         </div>
     )
 }

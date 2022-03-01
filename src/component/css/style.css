@@ -4,3 +4,17 @@
 .navbar-lista-desktop li a{
     text-decoration: none;
 }
+.navbar-lista-desktop ul{
+    list-style: none;
+}
+
+.navbar-lista-desktop ul li a{
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.navbar-lista-desktop ul li a:hover{
+    font-family: 'Rubik', sans-serif;
+    color: #9ea808;
+}
