@@ -9,10 +9,10 @@ import { Principal } from './component/principal/principal';
 
 function App() {
     return(
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
       <Navbar/>
         <Routes>
-          <Route path='/ositoservicio' element={<Principal />}/> 
+          <Route path='/' element={<Principal />}/> 
         </Routes>
       </BrowserRouter>
     )
