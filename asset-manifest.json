@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ositoservicio/static/css/main.073c9b0a.css",
-    "main.js": "/ositoservicio/static/js/main.06a5bcbd.js",
+    "main.css": "/ositoservicio/static/css/main.e6c13ad2.css",
+    "main.js": "/ositoservicio/static/js/main.84b3396b.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
-    "static/media/logo.svg": "/ositoservicio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ositoservicio/index.html",
-    "main.073c9b0a.css.map": "/ositoservicio/static/css/main.073c9b0a.css.map",
-    "main.06a5bcbd.js.map": "/ositoservicio/static/js/main.06a5bcbd.js.map",
+    "main.e6c13ad2.css.map": "/ositoservicio/static/css/main.e6c13ad2.css.map",
+    "main.84b3396b.js.map": "/ositoservicio/static/js/main.84b3396b.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.06a5bcbd.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.84b3396b.js"
   ]
 }
