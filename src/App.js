@@ -8,6 +8,13 @@ import { Navbar } from './component/navbar/navbar';
 import { Principal } from './component/principal/principal';
 
 function App() {
+  /*
+    "homepage": "https://fxivan.github.io/ositoservicio/",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  
+  */
     return(
       <BrowserRouter>
       <Navbar/>
