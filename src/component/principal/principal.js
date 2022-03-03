@@ -9,7 +9,7 @@ export const Principal = () =>{
                 <img src={imgFondo}/>
             </div>
             <div>
-                <div className='text-center mt-4 pb-4'>
+                <div className='text-center mt-4. pb-4'>
                     <h2>Nosotros</h2>
                 </div>
                 <div className='container row m-auto nosotros-desktop mb-3'>

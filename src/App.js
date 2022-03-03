@@ -19,6 +19,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
+          <Route  path='/' element={<Principal />}/>
           <Route path='/ositoservicio' element={<Principal />}/> 
         </Routes>
       </BrowserRouter>
