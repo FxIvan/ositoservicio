@@ -20,8 +20,20 @@
 }
 
 .foto-portada img{
-    position: absolute;
-    z-index: -1;
     width: 100%;
-    top: 0;
+}
+
+.nosotros-parrafo-desktop{
+    width: 100%;
+}
+
+.nosotros-desktop img{
+    width: 20%;
+    height: 13rem;
+}
+.nosotros-desktop p{
+    /*width: 55%;*/
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 24px;
 }
