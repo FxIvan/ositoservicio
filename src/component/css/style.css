@@ -41,3 +41,39 @@
 .undraw-desktop img{
     width: 65%;
 }
+
+.precios-desktop img{
+    width: 55%;
+}
+.lista-precio-desktop-350 ul , .lista-precio-desktop-250  ul{
+    list-style: none;
+}
+
+.link-button-desktop{
+    border: 2px solid #1a1919;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 1em;
+    color: white;
+    background-color: blue;
+    font-size: 1.2em;
+}
+.link-button-desktop:hover{
+    color: black;
+    background-color: rgba(98, 98, 231, 0.89);
+}
+.container-button-desktop{
+    margin: 2em 0 4em 0;
+}
+
+.lista-precio-desktop-350 ul li{
+    color: rgb(124, 124, 122);
+}
+
+.lista-precio-desktop-350 ul li span{
+    color: #000000;
+}
+
+.lista-precio-desktop-250 ul li , .lista-precio-desktop-350 ul li{
+    font-size: 1.4em;
+}
