@@ -4,9 +4,8 @@ import nosotrosImg from '../imgosito/nosotrosLogo.png'
 import seguridad from '../imgosito/securityUndraw.svg'
 import rapidez from '../imgosito/speedUndraw.svg'
 import atencion from '../imgosito/atencionUndraw.svg'
-import precio250 from '../imgosito/250$.svg'
-import precio350 from '../imgosito/350$.svg'
-import { Link } from 'react-router-dom'
+import { Costos } from '../costos/costos'
+import { Formulario } from '../formulario/formulario'
 export const Principal = () => {
   return (
     <div>
@@ -41,88 +40,41 @@ export const Principal = () => {
           </div>
           <div className="undraw-desktop container row m-auto text-center">
             <div className="col-sm-4">
-              <img src={seguridad} alt="seguridad" />
-              <div className="pt-4">
-                <span>SEGURIDAD</span>
-              </div>
+              <img src={seguridad} alt="seguridad" className="img-fluid" />
             </div>
             <div className="col-sm-4">
-              <img src={rapidez} alt="rapidez" />
-              <div className="pt-4">
-                <span>Rapidez</span>
-              </div>
+              <img src={rapidez} alt="rapidez" className="img-fluid" />
             </div>
             <div className="col-sm-4">
               <img src={atencion} alt="atencion" />
-              <div className="pt-4">
-                <span>
-                  Atencion <br /> <p>24/7</p>
-                </span>
-              </div>
+            </div>
+          </div>
+          <div className="container text-center mt-5 row m-auto text-undraw-desktop">
+            <div className="pt-4 col-sm-4">
+              <span>SEGURIDAD</span>
+            </div>
+            <div className="pt-4 col-sm-4">
+              <span>Rapidez</span>
+            </div>
+            <div className="pt-4 col-sm-4">
+              <span>
+                Atencion <br /> <p>24/7</p>
+              </span>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <div className="precios-desktop">
-          <div className='text-center mt-5 mb-5'>
-            <h2>COSTO DEL SERVICIO</h2>
-          </div>
-<div className='container col-sm-12 row  m-auto'>
-          <div className='col-sm-4 m-auto'>
-            <div className='text-center'>
-              <img src={precio250} alt="precio" />
-            </div>
-            <div className='lista-precio-desktop-250'>
-              <ul>
-                <li>Atencion: Lunes a Viernes</li>
-                <li>Transacciones: 1</li>
-                <li>Duracion: 3 dias</li>
-                <li>Envios al exerior: SI</li>
-                <li>Moneda: ARS/ARS</li>
-              </ul>
-              <div className='text-center'>
-                <p>Horario de atencion 09:00 a 18:00</p>
-              </div>
-            </div>
-            <div className='text-center container-button-desktop'>
-              <Link to={'/costo/250'}  className='link-button-desktop'>
-                Contactar
-              </Link>
-            </div>
-          </div>
-
-          <div className='col-sm-4 m-auto'>
-            <div className='text-center'>
-              <img src={precio350} alt="precio" />
-            </div>
-            <div  className='lista-precio-desktop-350'>
-              <ul>
-                <li>
-                  <span>Atencion: 24/7</span>
-                </li>
-                <li>Transacciones: 1</li>
-                <li>
-                  <span>Duracion: 7 dias</span>
-                </li>
-                <li>Envios al exerior: SI</li>
-                <li>
-                  <span>Moneda: ARS/ARS y USD/USD</span>
-                </li>
-              </ul>
-              <div className='text-center'>
-                <p>Horario de atencion 24hs</p>
-              </div>
-            </div>
-            <div className='text-center container-button-desktop'>
-              <Link to={'/costo/350'} className='link-button-desktop'>
-                Contactar
-              </Link>
-            </div>
-          </div>
-          </div>{/******/}
-        </div>
+        <Costos />
       </div>
+      <div className="container-formulario-desktop">
+        <Formulario />
+      </div>
+      <footer>
+        <div className="footer-container-desktop">
+          <h3>O</h3>
+        </div>
+      </footer>
     </div>
   )
 }

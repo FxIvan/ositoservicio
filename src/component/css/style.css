@@ -1,3 +1,8 @@
+h2{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3em;
+}
+
 .navbar-web-desktop img{
     width: 30%;
 }
@@ -41,6 +46,15 @@
 .undraw-desktop img{
     width: 65%;
 }
+.text-undraw-desktop span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #2c4901;
+}
+.text-undraw-desktop span p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+}
 
 .precios-desktop img{
     width: 55%;
@@ -76,4 +90,38 @@
 
 .lista-precio-desktop-250 ul li , .lista-precio-desktop-350 ul li{
     font-size: 1.4em;
+}
+
+.button-submit-desktop{
+    margin: 2em 0 4em 0;
+}
+.container-formulario-desktop{
+    padding: 5em 0 1em 0;
+    background-color: rgb(70, 12, 124 , 0.8);
+}
+
+footer{
+    background-color: black;
+    height: 10em;
+}
+
+.button-submit-desktop input{
+    border: 2px solid white;
+    background-color: rgb(26, 226, 133);
+    color: black;
+    /*padding: 0.8em;*/
+    font-size: 1.4em;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 4.3rem;
+    border-radius: 8px;
+}
+
+.container-formulario-desktop label{
+    font-size: 1.5rem;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+.container-formulario-desktop input{
+    margin-bottom: 1rem;
 }

@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import { Add } from './component/costos/add';
 import { Navbar } from './component/navbar/navbar';
 import { Principal } from './component/principal/principal';
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route  path='/' element={<Principal />}/>
           <Route path='/ositoservicio' element={<Principal />}/> 
+          <Route path='/panelcontrol/addPrecio' element={<Add/>} />
         </Routes>
       </BrowserRouter>
     )
