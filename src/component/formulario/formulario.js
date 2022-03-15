@@ -21,7 +21,7 @@ export const Formulario = () =>{
     const handleSubmit = async(e) =>{
         e.preventDefault()
         await axios.post('https://ositoservicio-backend.herokuapp.com/formulario', form)
-        window.location.href='/'
+       
     }
 
     return(
