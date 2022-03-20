@@ -19,8 +19,9 @@ export const Formulario = () =>{
     }
 
     const handleSubmit = async(e) =>{
-        e.preventDefault()
+        
         await axios.post('https://ositoservicio-backend.herokuapp.com/formulario', form)
+        console.log(form)
        
     }
 
@@ -42,7 +43,7 @@ export const Formulario = () =>{
                 <label for="formControlInput" className="form-label">Tu consulta</label>
                 <textarea type="text" className="form-control" id="formControlInput" placeholder="tu consulta" onChange={handleChange} name='consulta'/>
                 <div className='text-center button-submit-desktop'>
-                    <input type="submit" value="Enviar" className='col-sm-2' onClick={()=> handleSubmit}/>
+                    <input type="submit" value="Enviar" className='col-sm-2' onClick={()=> handleSubmit()}/>
                 </div>
             </form>
         </div>
