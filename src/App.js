@@ -5,17 +5,11 @@ import {
   Route,
 } from "react-router-dom";
 import { Add } from './component/costos/add';
+import { Formpanel } from './component/formpanel/formpanel';
 import { Navbar } from './component/navbar/navbar';
 import { Principal } from './component/principal/principal';
 
 function App() {
-  /*
-    "homepage": "https://fxivan.github.io/ositoservicio/",
-
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-  
-  */
     return(
       <BrowserRouter>
       <Navbar/>
@@ -23,6 +17,7 @@ function App() {
           <Route  path='/' element={<Principal />}/>
           <Route path='/ositoservicio' element={<Principal />}/> 
           <Route path='/panelcontrol/addPrecio' element={<Add/>} />
+          <Route path='/panelcontrol/formpanel' element={<Formpanel/>} />
         </Routes>
       </BrowserRouter>
     )
