@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 export const Formpanel = () => {
-  const [dbForm, setDbForm] = useState()
+  const [dbForm, setDbForm] = useState([])
 
   useEffect(() => {
     const axiosGet = async () => {
@@ -10,9 +10,10 @@ export const Formpanel = () => {
       setDbForm(dbDatos.data)
     }
     axiosGet()
-  }, [])
+    console.log(dbForm)
+  }, [dbForm])
 
-  const texto = 'hola mi lord'
+ 
   
   return (
     <div>
