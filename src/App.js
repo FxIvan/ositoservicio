@@ -17,7 +17,7 @@ function App() {
           <Route  path='/' element={<Principal />}/>
           <Route path='/ositoservicio' element={<Principal />}/> 
           <Route path='/panelcontrol/addPrecio' element={<Add/>} />
-          <Route path='/panelcontrol/formpanel' element={<Formpanel/>} />
+          <Route path='/ositoservicio/panelcontrol/formpanel' element={<Formpanel/>} />
         </Routes>
       </BrowserRouter>
     )

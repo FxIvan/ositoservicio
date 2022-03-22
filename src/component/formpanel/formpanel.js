@@ -20,10 +20,11 @@ export const Formpanel = () => {
       <div className="container text-center mt-5">
         <h2>Formularios recibido</h2>
       </div>
+      <div className='text-center m-auto'>
       {
           dbForm.map(correos =>(
-            <table class="table caption-top container row m-auto">
-            <div className='col-sm-8'>
+            <table class="table caption-top container row m-auto mt-3">
+            <div className='col-sm-8 col-8 m-auto'>
             <thead>
               <tr>
                 <th scope="col">Hora</th>
@@ -33,15 +34,16 @@ export const Formpanel = () => {
             </thead>
             <tbody>
               <tr>
-                    <th scope="row" className='col-sm-2'>{correos.updatedAt.slice(11,19)}</th>
-                    <td className='col-sm-6'>{correos.email}</td>
-                    <td className='col-sm-2 text-center'><button type="button" class="btn btn-danger">Eliminar</button> <button type="button" class="btn btn-success">Ver</button></td>
+                    <th scope="row" className='col-sm-2 col-2'>{correos.updatedAt.slice(11,19)}</th>
+                    <td className='col-sm-6 col-6'>{correos.email}</td>
+                    <td className='col-sm-2 col-2 text-center pt-2 pb-2'><button type="button" class="btn btn-danger">Eliminar</button> <button type="button" class="btn btn-success">Ver</button></td>
                 </tr>
             </tbody>
             </div>
           </table>
           ))
       }
+      </div>
     </div>
   )
 }
