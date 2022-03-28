@@ -125,3 +125,28 @@ footer{
 .container-formulario-desktop input{
     margin-bottom: 1rem;
 }
+
+.boton-link{
+    text-decoration: none;
+    color: white;
+}
+
+.consulta-desktop p{
+    width: 30%;
+    white-space: normal;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-volver-desktop{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(63, 4, 63);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+}
+.container-button-volver{
+    text-align: center;
+    margin: auto;
+}
