@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ositoservicio/static/css/main.75c0aa65.css",
-    "main.js": "/ositoservicio/static/js/main.ac0acf17.js",
+    "main.css": "/ositoservicio/static/css/main.a4aff997.css",
+    "main.js": "/ositoservicio/static/js/main.2d9378ad.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
     "static/media/nosotrosLogo.png": "/ositoservicio/static/media/nosotrosLogo.e73ae1b8b6f36f9c05a3.png",
     "static/media/350$.svg": "/ositoservicio/static/media/350$.7a1a2cc95662e9d0cc7a57816d2fd901.svg",
@@ -12,12 +12,12 @@
     "static/media/speedUndraw.svg": "/ositoservicio/static/media/speedUndraw.6623589959ad20239cf66ad8bfd9b1dc.svg",
     "static/media/securityUndraw.svg": "/ositoservicio/static/media/securityUndraw.0f64665f32890249d441828f98df6008.svg",
     "index.html": "/ositoservicio/index.html",
-    "main.75c0aa65.css.map": "/ositoservicio/static/css/main.75c0aa65.css.map",
-    "main.ac0acf17.js.map": "/ositoservicio/static/js/main.ac0acf17.js.map",
+    "main.a4aff997.css.map": "/ositoservicio/static/css/main.a4aff997.css.map",
+    "main.2d9378ad.js.map": "/ositoservicio/static/js/main.2d9378ad.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75c0aa65.css",
-    "static/js/main.ac0acf17.js"
+    "static/css/main.a4aff997.css",
+    "static/js/main.2d9378ad.js"
   ]
 }
