@@ -9,12 +9,11 @@ import { Formpanel } from './component/formpanel/formpanel';
 import { Formuser } from './component/formuser/Formuser';
 import { Navbar } from './component/navbar/navbar';
 import { Principal } from './component/principal/principal';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
     return(
-      
-      <BrowserRouter>
-      
+      <HashRouter>
       <Navbar/>
         <Routes>
           <Route  path='/' element={<Principal />}/>
@@ -23,7 +22,7 @@ function App() {
           <Route path='/panelcontrol/formpanel' element={<Formpanel/>} />
           <Route path='/panelcontrol/formpanel/:id' element={<Formuser/>}/>
         </Routes>   
-      </BrowserRouter>
+        </HashRouter>
     )
 }
 
