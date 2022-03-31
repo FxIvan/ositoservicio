@@ -16,11 +16,11 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
-          <Route  path='/' element={<Principal />}/>
-          <Route path='/ositoservicio' element={<Principal />}/> 
+          {/*<Route path='/ositoservicio' element={<Principal />}/>*/}
           <Route path='/panelcontrol/addPrecio' element={<Add/>} />
           <Route path='/panelcontrol/formpanel' element={<Formpanel/>} />
           <Route path='/panelcontrol/formpanel/:id' element={<Formuser/>}/>
+          <Route  path='/' element={<Principal />}/>
         </Routes>   
         </BrowserRouter>
     )
