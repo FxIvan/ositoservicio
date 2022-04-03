@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ositoservicio/static/css/main.d91894f9.css",
-    "main.js": "/ositoservicio/static/js/main.910c366b.js",
+    "main.css": "/ositoservicio/static/css/main.1cfcd4c8.css",
+    "main.js": "/ositoservicio/static/js/main.4e92b3fe.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
     "static/media/nosotrosLogo.png": "/ositoservicio/static/media/nosotrosLogo.e73ae1b8b6f36f9c05a3.png",
     "static/media/instagram-icono.svg": "/ositoservicio/static/media/instagram-icono.e6e32d4c91da1ac32e14ca033003722b.svg",
@@ -15,12 +15,12 @@
     "static/media/facebook-icono.svg": "/ositoservicio/static/media/facebook-icono.4f43d027d660826c4e0efbc2f14b217e.svg",
     "static/media/securityUndraw.svg": "/ositoservicio/static/media/securityUndraw.0f64665f32890249d441828f98df6008.svg",
     "index.html": "/ositoservicio/index.html",
-    "main.d91894f9.css.map": "/ositoservicio/static/css/main.d91894f9.css.map",
-    "main.910c366b.js.map": "/ositoservicio/static/js/main.910c366b.js.map",
+    "main.1cfcd4c8.css.map": "/ositoservicio/static/css/main.1cfcd4c8.css.map",
+    "main.4e92b3fe.js.map": "/ositoservicio/static/js/main.4e92b3fe.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d91894f9.css",
-    "static/js/main.910c366b.js"
+    "static/css/main.1cfcd4c8.css",
+    "static/js/main.4e92b3fe.js"
   ]
 }
