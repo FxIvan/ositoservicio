@@ -3,29 +3,43 @@ h2{
     font-size: 3em;
 }
 
-.navbar-web-desktop img{
-    width: 30%;
+/*NAVBAR*/
+.logo-navbar img{
+    width: 20%;
+}
+.navbar-lista-desktop li{
+    padding-right: 2rem;
 }
 .navbar-lista-desktop li a{
     text-decoration: none;
 }
+
 .navbar-lista-desktop ul{
     list-style: none;
 }
-
 .navbar-lista-desktop ul li a{
-    font-size: 2rem;
     font-family: 'Rubik', sans-serif;
-    color: black;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
 }
-
 .navbar-lista-desktop ul li a:hover{
     font-family: 'Rubik', sans-serif;
-    color: #9ea808;
+    color: #9e9e9d;
 }
 
+.container-navbar-desktop{
+    margin-bottom: 4rem;
+}
+
+/*      */
 .foto-portada img{
-    width: 100%;
+    width: 60%;
+}
+
+.text-service-intermediate h3{
+    font-size: 3rem;
+    margin-top: 2rem;
 }
 
 .nosotros-parrafo-desktop{
@@ -45,15 +59,11 @@ h2{
 
 .undraw-desktop img{
     width: 65%;
+    height: 300px;
 }
-.text-undraw-desktop span{
+.undraw-desktop span{
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
-    color: #2c4901;
-}
-.text-undraw-desktop span p{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2.5rem;
 }
 
 .precios-desktop img{
@@ -149,4 +159,39 @@ footer{
 .container-button-volver{
     text-align: center;
     margin: auto;
+}
+
+/*Contacto*/
+
+.contact-container span{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.background-contact{
+    background-color: #1a1919;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 100%;
+}
+
+.contact-container{
+    margin-top: 4rem;
+    height: 100vh;
+}
+
+.icono-desktop-contact img{
+    margin-top: 2rem;
+    width: 70%;
+}
+.icono-desktop-contact{
+    margin-top: 4rem;
+    width: 30%;
+}
+
+.numero-desktop, .correos-desktop, .redes-desktop{
+    margin-top: 2rem;
+}
+
+.redes-desktop{
+    padding-bottom: 5rem;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import imgFondo from '../imgosito/portadaPNG.png'
+import imgFondo from '../imgosito/OSITO.svg'
 import nosotrosImg from '../imgosito/nosotrosLogo.png'
 import seguridad from '../imgosito/securityUndraw.svg'
 import rapidez from '../imgosito/speedUndraw.svg'
@@ -9,11 +9,14 @@ import { Formulario } from '../formulario/formulario'
 export const Principal = () => {
   return (
     <div>
-      <div className="foto-portada">
-        <img src={imgFondo} />
+      <div className="foto-portada container m-auto text-center">
+        <img src={imgFondo} className='titulo-osito'/>
+        <div className='text-service-intermediate'>
+          <h3>servicio de intermediario</h3>
+        </div>
       </div>
       <div>
-        <div className="text-center mt-4. pb-4">
+        <div className="text-center mt-5 pb-4">
           <h2>Nosotros</h2>
         </div>
         <div className="container row m-auto nosotros-desktop mb-3">
@@ -40,26 +43,28 @@ export const Principal = () => {
           </div>
           <div className="undraw-desktop container row m-auto text-center">
             <div className="col-sm-4">
-              <img src={seguridad} alt="seguridad" className="img-fluid" />
+              <div>
+                <img src={seguridad} alt="seguridad" className="img-fluid" />
+              </div>
+              <div>
+                <span>seguridad</span>
+              </div>
             </div>
             <div className="col-sm-4">
-              <img src={rapidez} alt="rapidez" className="img-fluid" />
+              <div>
+                <img src={rapidez} alt="rapidez" className="img-fluid" />
+              </div>
+              <div>
+                <span>rapidez</span>
+              </div>
             </div>
             <div className="col-sm-4">
-              <img src={atencion} alt="atencion" />
-            </div>
-          </div>
-          <div className="container text-center mt-5 row m-auto text-undraw-desktop">
-            <div className="pt-4 col-sm-4">
-              <span>SEGURIDAD</span>
-            </div>
-            <div className="pt-4 col-sm-4">
-              <span>Rapidez</span>
-            </div>
-            <div className="pt-4 col-sm-4">
-              <span>
-                Atencion <br /> <p>24/7</p>
-              </span>
+              <div>
+                <img src={atencion} alt="atencion" />
+              </div>
+              <div>
+                <span>atencion</span>
+              </div>
             </div>
           </div>
         </div>
