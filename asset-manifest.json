@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ositoservicio/static/css/main.6955b6f3.css",
-    "main.js": "/ositoservicio/static/js/main.9e8d9fe3.js",
+    "main.js": "/ositoservicio/static/js/main.8391ca22.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
     "static/media/nosotrosLogo.png": "/ositoservicio/static/media/nosotrosLogo.e73ae1b8b6f36f9c05a3.png",
     "static/media/instagram-icono.svg": "/ositoservicio/static/media/instagram-icono.e6e32d4c91da1ac32e14ca033003722b.svg",
@@ -16,11 +16,11 @@
     "static/media/securityUndraw.svg": "/ositoservicio/static/media/securityUndraw.0f64665f32890249d441828f98df6008.svg",
     "index.html": "/ositoservicio/index.html",
     "main.6955b6f3.css.map": "/ositoservicio/static/css/main.6955b6f3.css.map",
-    "main.9e8d9fe3.js.map": "/ositoservicio/static/js/main.9e8d9fe3.js.map",
+    "main.8391ca22.js.map": "/ositoservicio/static/js/main.8391ca22.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6955b6f3.css",
-    "static/js/main.9e8d9fe3.js"
+    "static/js/main.8391ca22.js"
   ]
 }
