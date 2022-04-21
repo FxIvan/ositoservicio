@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ositoservicio/static/css/main.1cfcd4c8.css",
-    "main.js": "/ositoservicio/static/js/main.4e92b3fe.js",
+    "main.css": "/ositoservicio/static/css/main.6955b6f3.css",
+    "main.js": "/ositoservicio/static/js/main.9e8d9fe3.js",
     "static/js/787.cda612ba.chunk.js": "/ositoservicio/static/js/787.cda612ba.chunk.js",
     "static/media/nosotrosLogo.png": "/ositoservicio/static/media/nosotrosLogo.e73ae1b8b6f36f9c05a3.png",
     "static/media/instagram-icono.svg": "/ositoservicio/static/media/instagram-icono.e6e32d4c91da1ac32e14ca033003722b.svg",
     "static/media/whatsapp-icono.svg": "/ositoservicio/static/media/whatsapp-icono.132d9aafa27c5f0ef6966cdb64195a7d.svg",
     "static/media/ositoicon.svg": "/ositoservicio/static/media/ositoicon.d112d7dbf35e109d677c2620440ebcea.svg",
     "static/media/OSITO.svg": "/ositoservicio/static/media/OSITO.397a16a5d0ba8331ba1cf947ae0e53ae.svg",
-    "static/media/350$.svg": "/ositoservicio/static/media/350$.7a1a2cc95662e9d0cc7a57816d2fd901.svg",
-    "static/media/250$.svg": "/ositoservicio/static/media/250$.80e4847cc06073e0fdb34c20f7083656.svg",
+    "static/media/2USD$.svg": "/ositoservicio/static/media/2USD$.cee2242e1050b22fb2001ef41757651d.svg",
+    "static/media/3USD$.svg": "/ositoservicio/static/media/3USD$.a98ea742d42921460ff683060dcd2782.svg",
     "static/media/atencionUndraw.svg": "/ositoservicio/static/media/atencionUndraw.0349645cb48a2aa42b7e8e9da700a188.svg",
     "static/media/speedUndraw.svg": "/ositoservicio/static/media/speedUndraw.6623589959ad20239cf66ad8bfd9b1dc.svg",
     "static/media/facebook-icono.svg": "/ositoservicio/static/media/facebook-icono.4f43d027d660826c4e0efbc2f14b217e.svg",
     "static/media/securityUndraw.svg": "/ositoservicio/static/media/securityUndraw.0f64665f32890249d441828f98df6008.svg",
     "index.html": "/ositoservicio/index.html",
-    "main.1cfcd4c8.css.map": "/ositoservicio/static/css/main.1cfcd4c8.css.map",
-    "main.4e92b3fe.js.map": "/ositoservicio/static/js/main.4e92b3fe.js.map",
+    "main.6955b6f3.css.map": "/ositoservicio/static/css/main.6955b6f3.css.map",
+    "main.9e8d9fe3.js.map": "/ositoservicio/static/js/main.9e8d9fe3.js.map",
     "787.cda612ba.chunk.js.map": "/ositoservicio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfcd4c8.css",
-    "static/js/main.4e92b3fe.js"
+    "static/css/main.6955b6f3.css",
+    "static/js/main.9e8d9fe3.js"
   ]
 }
